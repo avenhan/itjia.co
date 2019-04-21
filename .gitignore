@@ -1,0 +1,40 @@
+# maven ignore
+target/
+RemoteSystemsTempFiles/
+!.mvn/wrapper/maven-wrapper.jar
+*.jar
+*.war
+*.zip
+*.tar
+*.tar.gz
+*.class
+*.bak
+
+# eclipse ignore
+.settings/
+
+# idea ignore
+.idea/
+*.ipr
+*.iml
+*.iws
+
+# temp ignore
+*.cache
+*.diff
+*.patch
+*.tmp
+data
+logs
+*.swap
+*.rdb
+.metadata
+.recommenders
+*~
+*.swp
+# system ignore
+.DS_Store
+Thumbs.db
+pom.xml.versionsBackup
+package-info.java
+
